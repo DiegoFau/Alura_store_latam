@@ -1,39 +1,36 @@
-#Alura_store_latam - Proyecto de análisis de datos
-Siempre es un buen momento para saber que es lo que esta pasando en tus tiendas.
+# Alura_store_latam - Proyecto de análisis de datos
+Siempre es un buen momento para saber qué está pasando en tus tiendas.
 
-
-#¿Cuál es el propósito de este análisis?
+## ¿Cuál es el propósito de este análisis?
 Este proyecto busca responder preguntas importantes como:
 
-- ¿Cuál tienda tiene mas ventas?
-- ¿Cuáles productos se pelean por ser los mas importantes del catálogo?
-- ¿Hay categorías durmiendo en las bodegas?
+- ¿Cuál tienda tiene más ventas?
+- ¿Qué productos dominan el catálogo?
+- ¿Hay categorías dormidas en las bodegas?
 - ¿Y cuál tienda necesita un abrazo porque no está vendiendo nada?
 
-El objetivo es transformar datos en insights claros, comparables y útiles para tomar decisiones reales, todo a través de visualizaciones, análisis por tienda y revisión del portafolio de productos.
+El objetivo es transformar datos en insights claros, comparables y útiles para la toma de decisiones.
 
+## Estructura del Proyecto
 
-#Estructura del Proyecto
+- **Importación de Datos/**
+  - ventas.csv  
+  - productos.csv  
+  - tiendas.csv  
 
-Alura_Store/
-  Importación de Datos/            # Archivos de origen
-    ventas.csv
-    productos.csv
-    tiendas.csv
-  
-  Análisis/                        # Trabajando los datos
-    Facturación
-    Ventas por Categoria
-    Calificación Promedio
-    Top & Bottom Productos
-    Costo Envío Promedio
+- **Análisis/**
+  - Facturación  
+  - Ventas por Categoría  
+  - Calificación Promedio  
+  - Top & Bottom Productos  
+  - Costo de Envío Promedio  
 
-  Gráficos/                         # Gráficos
-    Facturación
-    Distribución por Categorías
-    Calificación promedio
-    
-  Informe/
-    alura_store_analisis.ipynb    # El infomre
+- **Gráficos/**
+  - Facturación  
+  - Distribución por Categorías  
+  - Calificación Promedio  
 
-  README.md                         # (Usted esta AQUÍ)
+- **Informe/**
+  - alura_store_analisis.ipynb  
+
+- **README.md**
